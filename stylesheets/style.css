@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(173, 97, 173);
+    background-color: rgb(235, 235, 207);
 }
 
 h1 {
@@ -12,4 +12,30 @@ h1 {
 p {
     font-family: 'Times New Roman', Times, serif;
     margin: 20; 
+}
+
+ul.nav_bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border: 2px dashed white;
+    background-color: rgb(143, 99, 138);
+}
+
+ul.nav_bar li {
+    float: left;
+}
+
+ul.nav_bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.nav_bar li a:hover {
+    background-color: rgb(93, 67, 112);
+    color: white;
 }
