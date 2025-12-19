@@ -113,20 +113,13 @@ ul.menu{
     list-style-type: none;
     margin: 0;
     padding: 15px;
-    border-radius: 8px;
 }
 
 ul.menu li {
     float: left;
 }
 
-ul.menu li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+
 
 footer {
     background-color: rgb(143, 99, 138);
@@ -142,4 +135,22 @@ footer {
 table {
     width: 100%;
     
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+}
+
+th, td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+tr:nth-of-type(even){
+    background-color: #97b3ef;
+}
+
+tr:first-of-type{
+    background-color: rgb(132, 107, 168);
 }
