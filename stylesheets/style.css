@@ -115,6 +115,11 @@ ul.menu{
     padding: 15px;
 }
 
+ul.menu ul(
+    list-style-type: none;
+    
+)
+
 footer {
     background-color: rgb(143, 99, 138);
     color: white;
@@ -142,9 +147,18 @@ th, td{
 }
 
 tr:nth-of-type(even){
-    background-color: #97b3ef;
+    background-color: #c776dd;
 }
 
 tr:first-of-type{
     background-color: rgb(132, 107, 168);
+}
+
+.info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
